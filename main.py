@@ -10,6 +10,7 @@ def resultwriter(feature,output_dest): # this will write all the features iin a 
                 w.writeheader()
                 flag=False
             w.writerow(item[1])
+            # read this
 
 def process_URL_list(file_dest,output_dest):# i think this takes whole file of urls with given malicious to extract their  feature and provide malicious column also like this will take url.txt
     feature=[]
